@@ -1,7 +1,7 @@
 /* universal properties */
 body, html {
     height: 100%;
-    color: white;
+    color: black;
     font-family: 'Playfair Display', serif;
     font-weight: 200;
 }
@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #navbar {
   overflow: hidden;
-  background-color: #8C030E;
+  background-color: #0D0D0D;
 }
 
 /* Navbar links */
@@ -43,9 +43,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-image {
-  background-image: url("milkway.v01.jpg");
-  height: 100%;
+  background-image: url("milkyway.v01.jpg");
+  height: 50%;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image2 {
+  background-image: url("IMG_1667.jpg");
+  width: 300px;
+  height: 300px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image3 {
+  background-image: url("IMG_1671.jpg");
+  width: 300px;
+  height: 300px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  left: 400px;
+}
+.hero-image4 {
+  background-image: url("profile.jpg");
+  width: 250px;
+  height: 250px;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -60,7 +88,8 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 div.stuff {
-  width: 250px;
+  width: 1412px;
+  height: 450px;
   /* height: fit-content; */
   word-wrap: break-word;
   overflow: auto;
@@ -69,9 +98,12 @@ div.stuff {
   border-style: dotted;
   border-color: black;
   float: left;
-  margin: 10px;
+  margin: 0px;
   padding: 5px;
 }
 div#first {
-  background-color: #8C030E;
+  background-color: #2039CC;
+}
+#myCanvas {
+  background-color: black
 }
